@@ -40,3 +40,6 @@ const init = () => {
 }
 
 init();
+
+
+// todo Unklar, was hier gemacht wird
