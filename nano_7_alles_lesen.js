@@ -7,9 +7,7 @@ const dbName = 'autos';
 // Verbindung zu Couch herstellen
 const db = require('nano')(`http://${username}:${password}@127.0.0.1:5984`).db;
 
-
 const init = () => {
-
     // use() ist die einzige Methode, die kein Promise ist
     let myDB = db.use(dbName);
 
