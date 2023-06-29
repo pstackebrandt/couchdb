@@ -1,7 +1,7 @@
 'use strict';
 
 // Credentials für die Anmeldung in Couch
-const username = 'alfa', password = 'alfa';
+const username = 'admin', password = 'asy';
 const dbName = 'autos';
 const meinAuto = {
     _id: '123',
@@ -14,8 +14,6 @@ const meinAuto = {
 
 // Verbindung zu Couch herstellen
 const db = require('nano')(`http://${username}:${password}@127.0.0.1:5984`).db;
-
-
 
 
 const init = () => {
@@ -33,3 +31,6 @@ const init = () => {
 }
 
 init();
+
+// Vorher DB 'autos' anlegen!!
+// Output: { ok: true, id: '123', rev: '1-5058ba06b28c9c52139109a1c975f009' }
