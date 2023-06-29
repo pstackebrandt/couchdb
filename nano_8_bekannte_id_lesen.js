@@ -3,7 +3,10 @@
 // Credentials für die Anmeldung in Couch
 const username = 'admin', password = 'asy';
 const dbName = 'autos';
-const id = '9963fa874156e7655913f8829200ce34';
+
+
+// ID des Dokuments, das gelesen werden soll
+const id = '53df0649e94dc8f94c02e196d900c0d2';
 
 
 // Verbindung zu Couch herstellen
@@ -23,4 +26,16 @@ const init = () => {
 
 } 
 
+
+// vorher ID aktualisieren!
 init();
+
+/* {
+    _id: '53df0649e94dc8f94c02e196d900c0d2',
+    _rev: '1-9d44f4de9e81e673cd73b888fa88292c',
+    marke: 'Fiat',
+    modell: 'Stilo',
+    leistungKW: 102,
+    farbe: 'Nachtblau',
+    leasing: false
+  } */
