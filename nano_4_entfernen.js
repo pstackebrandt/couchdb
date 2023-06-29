@@ -1,13 +1,11 @@
 'use strict';
 
 // Credentials für die Anmeldung in Couch
-const username = 'alfa', password = 'alfa';
-const dbName = 'example';
+const username = 'admin', password = 'asy';
+const dbName = 'testdb0';
 
 // Verbindung zu Couch herstellen
 const db = require('nano')(`http://${username}:${password}@127.0.0.1:5984`).db;
-
-
 
 const init = () => {
 
@@ -29,3 +27,6 @@ const init = () => {
 }
 
 init();
+
+// Output: { ok: true }
+// Output: DB "testdb0" existiert gar nicht
