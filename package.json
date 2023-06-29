@@ -1,0 +1,19 @@
+{
+  "name": "couchdb",
+  "version": "1.0.0",
+  "description": "scripte von christian",
+  "main": "nano_1_verbindung.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nano",
+    "couchdb",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nano": "^10.1.2"
+  }
+}
