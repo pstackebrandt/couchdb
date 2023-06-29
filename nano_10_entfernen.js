@@ -1,7 +1,7 @@
 'use strict';
 
 // Credentials für die Anmeldung in Couch
-const username = 'alfa', password = 'alfa';
+const username = 'admin', password = 'asy';
 const dbName = 'autos';
 const id = '9963fa874156e7655913f8829200ce34';
 

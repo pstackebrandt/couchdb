@@ -9,7 +9,7 @@ server.use(express.static('public', {
 }));
 
 // COUCH
-const username = 'alfa', password = 'alfa';
+const username = 'admin', password = 'asy';
 const db = require('nano')(`http://${username}:${password}@127.0.0.1:5984`).db;
 const dbName = 'autos';
 
